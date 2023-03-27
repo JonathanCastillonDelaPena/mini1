@@ -1,0 +1,38 @@
+:root {
+  /* --primary: #e88f2a; */
+  --primary: #ff0000;
+  --secondary: #faf3eb;
+  --light: #ffffff;
+  --dark: #2b2825;
+}
+
+body {
+  background-color: #d5b8c9;
+  overflow-x: hidden;
+}
+
+.nav-item {
+  font-family: "Oswald", sans-serif;
+  font-size: large;
+}
+
+.border-inner {
+  position: relative;
+}
+
+.border-inner * {
+  position: relative;
+  z-index: 1;
+}
+
+.border-inner::before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  background: none;
+  border: 1px solid var(--light);
+  z-index: 0;
+}

@@ -1,0 +1,37 @@
+/* .heroSection,
+.sampleProductPromotionSection,
+.socialMediaPromotionSection,
+.previousProductQuickShowcaseContainer {
+  min-height: 100vh;
+} */
+
+/* .carousel-item {
+  margin-top: 88px;
+} */
+
+.carousel-item img {
+  /* max-width: 560px;
+    max-height: 520px; */
+  margin: auto;
+  border-radius: 10%;
+  box-shadow: 1px 1px 50px #add8e6;
+}
+
+.sampleProductPromotionSection {
+  margin-top: 43px;
+}
+
+.card {
+  border: 0;
+  border-radius: 10%;
+}
+
+.card-img-top {
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.card-body p {
+  font-family: Impact, sans-serif;
+  font-size: 50px;
+}
